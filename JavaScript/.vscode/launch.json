@@ -5,12 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "Debug Java",
+            "type": "pwa-node",
             "request": "launch",
-            "mainClass": "Main",
-            "projectName": "Testing_3892d7b1",
-            "args": "123 1234 hjkjjkkj"
+            "name": "Debug JavaScript",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Testing.js",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
         }
     ]
 }
