@@ -4,6 +4,7 @@ public class Main {
 		System.out.println("Hello World");
 
 		try {
+			int test = 1;
 			App obj = new App();
 			obj.PrintText("Test");
 			obj.PrintText("Test2");
