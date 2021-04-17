@@ -8,8 +8,7 @@
             "type": "java",
             "name": "Debug Java",
             "request": "launch",
-            "mainClass": "Main",
-            "projectName": "Testing_3892d7b1",
+            "mainClass": "",
             "args": "123 1234 hjkjjkkj"
         }
     ]
